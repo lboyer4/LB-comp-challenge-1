@@ -1,0 +1,330 @@
+
+body{
+  background-color:#d2bc89;
+  color: #282d1f;
+  font-family:"Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+nav{
+  background-color:#282d1f;
+  color: #f4ebcb;
+  width: 100%;
+  height: 120px;
+  margin:0 0 10px 0;
+  padding: 0;
+}
+
+h1{
+	background-color:#d2bc89;
+	display: block;
+	margin: 5px 10px;
+}
+
+div.camera{
+	display:inline-block;
+	margin: 50px 0 0 182px;
+	float: right;
+}
+
+h6{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+ 
+h6:hover{
+	color: #f25959;
+}
+
+p {
+	display: inline-block;
+	margin: 90px 2px 0 5px;
+}
+
+.T:hover{
+	color: #f25959;
+	font-weight: 700;
+}
+
+.PL:hover{
+	color: #f25959;
+	font-weight: 700;
+}
+
+.PE:hover{
+	color: #f25959;
+	font-weight: 700;
+}
+
+}
+.camera{
+	float: right;
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+}
+.playlist{
+	font-weight: bold;
+	font-size: 70%;
+	margin: 20px 0 0 10px;
+}
+
+.playlist-name{
+	font-size: 90%;
+	margin: 5px 0 10px 10px;
+	display: block;
+}
+
+.attach{
+	font-size: 70%;
+	font-weight: bold;
+	margin: 0px 60px 0px 10px;
+}
+
+div.shares{
+	background-color:#d2bc89;
+	height: 80px;
+	margin-top: 0px;
+	text-align: left;
+	padding: 9px 5px 0px 5px;
+	margin: 0;
+}
+
+div.picture{
+	background: url("Images/img1.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture2{
+	background: url("Images/Place 3.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture3{
+	background: url("Images/Place 2.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture4{
+	background: url("Images/Place 4.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture5{
+	background: url("Images/Place 12.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture6{
+	background: url("Images/Place 14.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture7{
+	background: url("Images/Place 11.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+div.picture8{
+	background: url("Images/Place 5.jpg");
+	width: 240px;
+	height: 150px;
+	position: relative;
+}
+
+
+ img{
+ 	width:240px;
+ 	height: 150px;
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
+ }
+
+i{
+	position: absolute;
+	margin-top: 5px ;
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+	font-size: 100%;
+}
+
+svg{
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 40px;
+	height: 40px;
+	color: #ee8f6c;
+}
+
+h4{
+	color: #ee8f6c;
+	position: absolute;
+	display: block;
+	margin: 75px 0px 15px 180px;
+}
+
+h2 {
+	color: #ee8f6c;
+	position: absolute;
+	display: block;
+	margin: 95px 0px 20px 194px;
+}
+
+.card{
+	background-color: #f4ebcb;
+	display: inline-block;
+	height:370px;
+	width: 240px;
+	margin: 10px 10px;
+	padding: 0px 0px 10px 0px;
+	box-shadow: 0 4px 8px;
+	text-align: left;
+	position: relative;
+
+}
+
+p.link{
+	font-size: 15%;
+	background-color:#d2bc89;
+	margin: 15px 15px 5px 15px;
+	padding: 10px 5px;
+}
+
+.date{
+	font-size: 10px;
+	padding: 0px 10px 0px 7px;
+	margin: 2px 0px 10px 8px;
+	display: block;
+}
+
+.place{
+	margin: 5px 0px 0px 10px;
+	padding:5px 0px 0px 5px;
+}
+
+.attachments{
+	color: #ee8f6c;
+	font-size: 30px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	display: block;
+}
+
+
+section{
+	margin: 10px auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+@media only screen and (max-width: 310px) {
+
+	h6{
+		margin: 2px 20px 0px 0px;
+	}
+
+	
+	nav{
+		width: 190%;
+	}
+
+	section{
+		width: 340px;
+	}
+
+	div.camera{
+	visibility: hidden;
+}
+}
+
+
+@media only screen and (max-width: 690px){
+
+
+	.card{
+	display:block;
+	height:370px;
+	width: 240px;
+	margin: 20px auto;
+	padding: 0px 0px 10px 0px;
+	box-shadow: 0 4px 8px;
+	text-align: left;
+	}
+
+.PL{
+	display: block;
+	margin: 5px 0;
+	width: 100%;
+
+}
+
+.T{
+	display: block;
+	margin: 0 0 5px 0;
+	width: 100%;
+}
+
+.PE{
+	display: block;
+	margin: 5px 0;
+	width: 100%;
+}
+
+section{
+	width: 600px;
+	text-align: center;
+	display: inline-block;
+}
+
+div.camera{
+	visibility: hidden;
+}
+
+
+@media only screen and (min-width: 680px){
+
+
+	nav{
+		width: 110%;
+	}
+
+	section{
+		display: flex;
+		flex-wrap: flex;
+	}
+
+	.card {
+		display: inline-block;
+	}
+
+	h6{
+		display: block;
+		margin: 2px 20px 0 0;
+	}
+}
+
+div.camera{
+	visibility: hidden;
+}
+	section{
+		width: 100%;
+	}
+}
